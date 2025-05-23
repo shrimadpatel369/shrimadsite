@@ -1,0 +1,112 @@
+/* Contact Section Styles */
+.contact-section {
+  background-color: var(--background);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  background-color: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-intro {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.contact-intro h3 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.contact-intro p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex-grow: 1;
+}
+
+.contact-method {
+  display: flex;
+  align-items: flex-start;
+}
+
+.method-icon {
+  background-color: var(--background);
+  color: var(--primary);
+  width: 45px;
+  height: 45px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.method-details h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.method-details p,
+.method-details a {
+  color: var(--text-muted);
+  transition: color 0.3s;
+}
+
+.method-details a:hover {
+  color: var(--primary);
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .contact-info {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-intro h3 {
+    font-size: 1.3rem;
+  }
+  
+  .method-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .method-details h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-methods {
+    gap: 1.2rem;
+  }
+  
+  .method-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+}

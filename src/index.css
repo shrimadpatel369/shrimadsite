@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Import other CSS files */
+@import url('./styles/main.css');
+@import url('./styles/about.css');
+@import url('./styles/experience.css');
+@import url('./styles/projects.css');
+@import url('./styles/skills.css');
+@import url('./styles/education.css');
+@import url('./styles/certifications.css');
+@import url('./styles/contact.css');
