@@ -5,7 +5,7 @@ export const about = {
   image: "/assets/shrimadsite.png",
   info: [
     { label: "Email", value: "smruticollection36@gmail.com" },
-    { label: "Phone", value: "70167 xxxxx" },
+    { label: "Phone", value: "7016700010" },
     { label: "Location", value: "Ahmedabad, India" }
   ],
   resumeLink: "/assets/shrimad%20patel%20updated%20cv.pdf",
@@ -49,7 +49,7 @@ export const projects = [
       "Analyzed the impact of environmental factors on tortoise condition, egg health, and hatching survival, emphasizing the effects of climate change and the need for conservation efforts."
     ],
     technologies: ["Python", "Bayesian Networks", "Pandas", "NumPy", "Matplotlib"],
-    link: "#"
+    link: "https://github.com/shrimadpatel369/Galapagoes-Tortoises---Bayesian-Networks"
   },
   {
     title: "Network Scanner Web App",
@@ -59,7 +59,7 @@ export const projects = [
       "Built a responsive React frontend with components like NetworkScanner, DeviceDetails, and ScanSummary to deliver an intuitive and informative user experience."
     ],
     technologies: ["Django", "React.js", "Scapy", "Nmap", "JWT", "OTP", "REST API"],
-    link: "#"
+    link: "https://github.com/shrimadpatel369/Network-Scanner-App"
   },
   {
     title: "Amma Ka Dabba (Food Delivery Application)",
@@ -89,7 +89,7 @@ export const projects = [
       "Addressed challenges related to fluctuating lighting conditions, enhancing skills in computer vision and image processing."
     ],
     technologies: ["OpenCV", "Python", "EigenFace Recognizer", "Haar Cascades"],
-    link: "#"
+    link: "https://github.com/shrimadpatel369/Facial-Recognition"
   },
   {
     title: "Feedback Management System",
@@ -98,7 +98,7 @@ export const projects = [
       "Enabled students to provide anonymous feedback while ensuring data privacy, with a user-friendly interface for faculty to access responses."
     ],
     technologies: ["Python", "Tkinter", "SQLite3"],
-    link: "#"
+    link: "https://github.com/shrimadpatel369/Feedback-Management-Project-Tkinter-"
   }
 ];
 

@@ -1,4 +1,5 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 // No theme switching needed
 
 // Pages
@@ -23,6 +24,7 @@ import './styles/main.css';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Navbar />
         <main>
@@ -34,7 +36,6 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contact" element={<Contact />} />
-
           </Routes>
         </main>
         <Footer />

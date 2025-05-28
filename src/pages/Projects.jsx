@@ -28,7 +28,16 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              {/* Remove project link if not present */}
+              {project.link && project.link !== '#' && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link-btn"
+                >
+                  View Project
+                </a>
+              )}
             </div>
           ))}
         </div>

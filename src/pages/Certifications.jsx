@@ -21,16 +21,14 @@ const Certifications = () => {
                   <p className="certification-period">{cert.period}</p>
                 )}
                 {cert.verifyLink && (
-                  <p style={{ position: 'absolute', right: '1.2rem', bottom: '1.2rem', margin: 0 }}>
-                    <a
-                      href={cert.verifyLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'underline', background: 'none', padding: 0, border: 'none' }}
-                    >
-                      Verify Certificate
-                    </a>
-                  </p>
+                  <a
+                    href={cert.verifyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="certification-verify-link"
+                  >
+                    Verify Certificate
+                  </a>
                 )}
               </div>
             </div>
