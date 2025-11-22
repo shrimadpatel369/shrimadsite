@@ -1,9 +1,50 @@
-/* Import other CSS files */
-@import url('./styles/main.css');
-@import url('./styles/about.css');
-@import url('./styles/experience.css');
-@import url('./styles/projects.css');
-@import url('./styles/skills.css');
-@import url('./styles/education.css');
-@import url('./styles/certifications.css');
-@import url('./styles/contact.css');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-background text-white font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+}
+
+@theme {
+  --color-primary: #ff8800;
+  --color-secondary: #ffb84d;
+  --color-background: #0f0f0f;
+  --color-surface: #1a1a1a;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-orange-600 hover:-translate-y-1 shadow-lg hover:shadow-orange-500/20;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white hover:-translate-y-1;
+  }
+
+  .section {
+    @apply py-20 relative;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6;
+  }
+
+  .card {
+    @apply bg-surface rounded-xl border border-neutral-800 p-6 transition-all duration-300 hover:border-primary/50 hover:shadow-xl;
+  }
+}
