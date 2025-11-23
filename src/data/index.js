@@ -54,14 +54,15 @@ export const projects = [
     image: "/images/cloud-market-place.png"
   },
   {
-    title: "Video Sharing Platform",
+    title: "Smruti Request Platform",
     description: [
-      "Developed a decentralized Cloud Market Place allowing clients to rent out computing power to users who provision virtual machines (VMs) based on custom CPU, RAM, and storage requirements.",
-      "Designed a community-based model to utilize untapped computational capacity (underutilized hardware), offering cost-effective and scalable cloud access for students and developers.",
-      "Implemented a full-stack solution featuring Docker and Kubernetes for multi-tenancy and isolation, and WebSockets for real-time coordination of distributed client agents."
+      "Developed a dedicated, community-focused web platform for the 'Smruti Request' process, enabling users to digitally submit, manage, and track requests related to personal devotional incidents and memories.",
+      "Designed a multi-stage Request Tracking System for efficient management, processing, and resolution of media/content submissions (Total, Open, Resolved).",
+      "Implemented secure user authentication featuring user registration, profile management, and OTP-based verification to ensure authorized access and contact with the respective content owner."
     ],
-    technologies: ["Node.js", "Express.js", "React.js", "MongoDB", "Docker", "Kubernetes", "WebSockets", "JWT/OTP", "Scheduling algorithms"],
-    link: "#"
+    technologies: ["Full-Stack Web Development", "User Authentication", "OTP Integration", "Database Management", "Content Management System (CMS)", "Request Tracking"],
+    link: "#",
+    image: "/images/smruti-request.png"
   },
   {
     title: "Predicting Female Condition, Egg Health, and Hatchling Survival in Galapagos Tortoises Using Bayesian Networks",
@@ -91,16 +92,6 @@ export const projects = [
       "Gained experience in database management and API security."
     ],
     technologies: ["Django REST Framework", "Django", "SQLite", "API Security"],
-    link: "#"
-  },
-  {
-    title: "Carrerwale (Career Counseling Platform)",
-    description: [
-      "Developed backend APIs for a career counseling and student guidance platform using Django.",
-      "Focused on building a robust, scalable backend with an emphasis on API performance, security, and maintainability.",
-      "Contributed to optimizing backend architecture to enhance user experience and reliability."
-    ],
-    technologies: ["Django", "REST API", "Backend Architecture"],
     link: "#"
   },
   {
