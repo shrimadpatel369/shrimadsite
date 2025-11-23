@@ -50,9 +50,10 @@ export const projects = [
       "Implemented a full-stack solution featuring Docker and Kubernetes for multi-tenancy and isolation, and WebSockets for real-time coordination of distributed client agents."
     ],
     technologies: ["Node.js", "Express.js", "React.js", "MongoDB", "Docker", "Kubernetes", "WebSockets", "JWT/OTP", "Scheduling algorithms"],
-    link: "https://github.com/shrimadpatel369/Cloud-Market-Place"
+    link: "https://github.com/shrimadpatel369/Cloud-Market-Place",
+    image: "/images/cloud-market-place.png"
   },
-    {
+  {
     title: "Video Sharing Platform",
     description: [
       "Developed a decentralized Cloud Market Place allowing clients to rent out computing power to users who provision virtual machines (VMs) based on custom CPU, RAM, and storage requirements.",
@@ -79,7 +80,8 @@ export const projects = [
       "Built a responsive React frontend with components like NetworkScanner, DeviceDetails, and ScanSummary to deliver an intuitive and informative user experience."
     ],
     technologies: ["Django", "React.js", "Scapy", "Nmap", "JWT", "OTP", "REST API"],
-    link: "https://github.com/shrimadpatel369/Network-Scanner-App"
+    link: "https://github.com/shrimadpatel369/Network-Scanner-App",
+    image: "/images/network-scanner.png"
   },
   {
     title: "Amma Ka Dabba (Food Delivery Application)",
@@ -118,7 +120,8 @@ export const projects = [
       "Enabled students to provide anonymous feedback while ensuring data privacy, with a user-friendly interface for faculty to access responses."
     ],
     technologies: ["Python", "Tkinter", "SQLite3"],
-    link: "https://github.com/shrimadpatel369/Feedback-Management-Project-Tkinter-"
+    link: "https://github.com/shrimadpatel369/Feedback-Management-Project-Tkinter-",
+    image: "/images/feedback-management.png"
   }
 ];
 

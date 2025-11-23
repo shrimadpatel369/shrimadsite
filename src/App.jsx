@@ -55,7 +55,7 @@ function App() {
                 tags: project.technologies,
                 github: project.link.includes('github') ? project.link : null,
                 demo: !project.link.includes('github') && project.link !== '#' ? project.link : null,
-                image: null
+                image: project.image
               };
               return <ProjectCard key={index} project={mappedProject} />;
             })}
