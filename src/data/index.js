@@ -8,7 +8,7 @@ export const about = {
     { label: "Phone", value: "7016700010" },
     { label: "Location", value: "Ahmedabad, India" }
   ],
-  resumeLink: "/assets/shrimad%20patel%20updated%20cv.pdf",
+  resumeLink: "/documents/shrimad%20patel%20updated%20cv.pdf",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/shrimad-patel-2b281926b",
     github: "https://github.com/shrimadpatel369",
@@ -42,6 +42,26 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    title: "Decentralized Cloud Market Place",
+    description: [
+      "Developed a decentralized Cloud Market Place allowing clients to rent out computing power to users who provision virtual machines (VMs) based on custom CPU, RAM, and storage requirements.",
+      "Designed a community-based model to utilize untapped computational capacity (underutilized hardware), offering cost-effective and scalable cloud access for students and developers.",
+      "Implemented a full-stack solution featuring Docker and Kubernetes for multi-tenancy and isolation, and WebSockets for real-time coordination of distributed client agents."
+    ],
+    technologies: ["Node.js", "Express.js", "React.js", "MongoDB", "Docker", "Kubernetes", "WebSockets", "JWT/OTP", "Scheduling algorithms"],
+    link: "https://github.com/shrimadpatel369/Cloud-Market-Place"
+  },
+    {
+    title: "Video Sharing Platform",
+    description: [
+      "Developed a decentralized Cloud Market Place allowing clients to rent out computing power to users who provision virtual machines (VMs) based on custom CPU, RAM, and storage requirements.",
+      "Designed a community-based model to utilize untapped computational capacity (underutilized hardware), offering cost-effective and scalable cloud access for students and developers.",
+      "Implemented a full-stack solution featuring Docker and Kubernetes for multi-tenancy and isolation, and WebSockets for real-time coordination of distributed client agents."
+    ],
+    technologies: ["Node.js", "Express.js", "React.js", "MongoDB", "Docker", "Kubernetes", "WebSockets", "JWT/OTP", "Scheduling algorithms"],
+    link: "#"
+  },
   {
     title: "Predicting Female Condition, Egg Health, and Hatchling Survival in Galapagos Tortoises Using Bayesian Networks",
     description: [
@@ -104,10 +124,10 @@ export const projects = [
 
 export const skills = {
   technical: [
-    "Python","Full-stack Development","C","Django","MySQL/PostgreSQL","Linux",
-    "MS Office Suite","Google Workspace","Adobe Photoshop","Premiere Pro"],
+    "Python", "Full-stack Development", "C", "Django", "MySQL/PostgreSQL", "Linux",
+    "MS Office Suite", "Google Workspace", "Adobe Photoshop", "Premiere Pro"],
   soft: [
-    "Time Management","Teamwork","Communication","Problem-solving"]
+    "Time Management", "Teamwork", "Communication", "Problem-solving"]
 };
 
 export const education = [
@@ -137,6 +157,6 @@ export const certifications = [
     issuer: "Rajesh Patkar Institute Of Software Engineering",
     description: "Proficiency in C-CPP-DS",
     period: "June 2023 to August 2023",
-    verifyLink: "/assets/Shrimad%20Patel%20%20C-CPP-DS%20CP7%20Certificate.pdf"
+    verifyLink: "/documents/Shrimad%20Patel%20%20C-CPP-DS%20CP7%20Certificate.pdf"
   }
 ];
