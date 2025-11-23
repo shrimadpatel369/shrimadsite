@@ -30,7 +30,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        Full Stack Developer
+                        Computer Science Student / AI-ML Part time job
                     </motion.h2>
 
                     <motion.p
@@ -39,7 +39,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
                     >
-                        I build exceptional digital experiences that are fast, accessible, and visually stunning. Passionate about creating efficient systems that solve real-world problems.
+                        I am a computer science graduate with expertise in system analysis and development. I have a strong foundation in programming languages, database management, and problem-solving. I am passionate about creating efficient and user-friendly systems that solve real-world problems.
                     </motion.p>
 
                     <motion.div
@@ -64,10 +64,12 @@ const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
                     <div className="w-[400px] h-[400px] bg-gradient-to-br from-primary to-secondary rounded-full blur-[100px] opacity-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                    <div className="relative z-10 w-[350px] h-[350px] rounded-full border-2 border-primary/20 flex items-center justify-center">
-                        <div className="w-[300px] h-[300px] rounded-full border-2 border-primary/40 flex items-center justify-center animate-spin-slow">
-                            <div className="w-[250px] h-[250px] rounded-full border-2 border-primary/60"></div>
-                        </div>
+                    <div className="relative z-10 w-[350px] h-[350px] rounded-full border-2 border-primary/20 flex items-center justify-center overflow-hidden">
+                        <img
+                            src="/images/main.png"
+                            alt="Shrimad Patel"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                 </motion.div>
             </div>
